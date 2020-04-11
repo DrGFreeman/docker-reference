@@ -44,7 +44,7 @@ $ docker build -t glob .
 Use the `-v` option to mount the host path to `/data` in the container.
 
 ```
-$ docker run -rm -v absolute_host_path:/data glob
+$ docker run --rm -v absolute_host_path:/data glob
 ```
 
 This will print out the content of `absolute_host_path`.
