@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
 The `Dockerfile` simply copies the `glob.py` application and runs it.
 
-```
+```Dockerfile
 FROM python:3
 
 COPY glob.py ./
